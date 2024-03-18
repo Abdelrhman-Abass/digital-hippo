@@ -3,6 +3,7 @@
         "hookform",
         "lucide",
         "payloadcms",
+        "sonner",
         "trpc"
     ]
 }
