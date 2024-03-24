@@ -32,9 +32,9 @@ export const Orders: CollectionConfig = {
         create: () => false,
         update: () => false,
       },
-      admin: {
-        hidden: true,
-      },
+      // admin: {
+      //   hidden: true,
+      // },
       required: true,
     },
     {
