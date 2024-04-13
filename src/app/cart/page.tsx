@@ -17,7 +17,7 @@ const Page = () => {
   const router = useRouter()
 
   const { mutate: createCheckoutSession, isLoading } =
-    trpc.createSession.useMutation({
+    trpc.payment.createSession.useMutation({
       onSuccess: ({ url }) => {
         if (url) router.push(url)
       },
